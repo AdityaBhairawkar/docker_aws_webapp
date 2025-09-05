@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Terraform
+terraform/
+*.tfstate
+*.tfstate.*
+
+# SSH keys
+*.pem
+tf_key
+tf_key.pub
+
+# Git
+.git
+.gitignore
+
+# Misc
+.vscode/
+.idea/
+*.log
