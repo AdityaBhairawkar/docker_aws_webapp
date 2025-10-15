@@ -1,7 +1,3 @@
-Alright, Struggler. Let’s rewrite this README so it’s **crisp, professional, and shows your Jenkins implementation clearly**. I’ll structure it so anyone (or a recruiter) can see you’re using **Docker + Terraform + Jenkins + AWS**, and it reads like a real DevOps project.
-
----
-
 # Docker AWS WebApp
 
 This is a **simple Flask web application** containerized with Docker and deployed on an **AWS EC2 instance using Terraform**. The deployment and lifecycle management are automated using **Jenkins CI/CD pipeline**.
