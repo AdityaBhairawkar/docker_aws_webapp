@@ -6,15 +6,17 @@ This is a **simple Flask web application** containerized with Docker and deploye
 
 ## Project Structure
 
+```
 docker_aws_webapp/
-│── app/
+│── app/                  # Flask application
 │   └── app.py
-│── terraform/
-│── Dockerfile
-│── requirements.txt
-│── setup.sh
-│── destroy.sh            
-│── Jenkinsfile
+│── terraform/            # Terraform configuration (EC2, security groups, key pairs)
+│── Dockerfile            # Docker image build instructions
+│── requirements.txt      # Python dependencies
+│── setup.sh              # Script to deploy app on EC2
+│── destroy.sh            # Script to remove resources
+│── Jenkinsfile           # CI/CD pipeline: Build, Push, Deploy, Destroy
+```
 
 ---
 
